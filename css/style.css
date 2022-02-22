@@ -257,4 +257,80 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     transition: 1s;
     transition-delay:0.75s ;
 }
+/*LINKEDIN ---------------------------------------------------------------------------------------- */
+.btn-neonl{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neonl:hover{
+    background: #0e76a8;
+    box-shadow: 0 0 10px #0e76a8, 0 0 40px #0e76a8, 0  0 80px #0e76a8 ;
+    transition-delay:1s;
+
+}
+
+.btn-neonl span{
+    position: absolute;
+    display: block;
+}
+
+#span15{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,#0e76a8);
+}
+
+.btn-neonl:hover #span15{
+    left: 100%;
+    transition: 1s;
+}
+#span35{
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,#0e76a8);
+}
+
+.btn-neonl:hover #span35{
+    right: 100%;
+    transition: 1s;
+    transition-delay:0.5s ;
+}
+#span25{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,#0e76a8);
+}
+
+.btn-neonl:hover #span25{
+    top: 100%;
+    transition: 1s;
+    transition-delay:0.25s ;
+}
+
+#span45{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,#0e76a8);
+}
+
+.btn-neonl:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay:0.75s ;
+}
 }
