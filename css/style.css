@@ -29,8 +29,8 @@ background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-2
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
-.btn-neon{
+@media (max-width:1912px){
+.btn-neont{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -41,14 +41,166 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     overflow: hidden;
     transition: 0.2s;
 }
-.btn-neon:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0  0 80px #a945c7 ;
+.btn-neont:hover{
+    background: #00acee;
+    box-shadow: 0 0 10px #00acee, 0 0 40px #00acee, 0  0 80px #00acee ;
     transition-delay:1s;
 
 }
 
-.btn-neon span{
+.btn-neont span{
+    position: absolute;
+    display: block;
+}
+
+#span12{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,#00acee);
+}
+
+.btn-neont:hover #span12{
+    left: 100%;
+    transition: 1s;
+}
+#span32{
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,#00acee);
+}
+
+.btn-neont:hover #span32{
+    right: 100%;
+    transition: 1s;
+    transition-delay:0.5s ;
+}
+#span22{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,#00acee);
+}
+
+.btn-neont:hover #span22{
+    top: 100%;
+    transition: 1s;
+    transition-delay:0.25s ;
+}
+
+#span42{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,#00acee);
+}
+
+.btn-neont:hover #span42{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay:0.75s ;
+}
+/* facebook ---------------------------------------------------------------------*/
+.btn-neonf{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neonf:hover{
+    background: #3b5998;
+    box-shadow: 0 0 10px #3b5998, 0 0 40px #3b5998, 0  0 80px #3b5998 ;
+    transition-delay:1s;
+
+}
+
+.btn-neonf span{
+    position: absolute;
+    display: block;
+}
+
+#span11{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,#3b5998);
+}
+
+.btn-neonf:hover #span11{
+    left: 100%;
+    transition: 1s;
+}
+#span31{
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,#3b5998);
+}
+
+.btn-neonf:hover #span31{
+    right: 100%;
+    transition: 1s;
+    transition-delay:0.5s ;
+}
+#span21{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,#3b5998);
+}
+
+.btn-neonf:hover #span21{
+    top: 100%;
+    transition: 1s;
+    transition-delay:0.25s ;
+}
+
+#span41{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,#3b5998);
+}
+
+.btn-neonf:hover #span41{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay:0.75s ;
+}
+/* WAHTASAPP------------------------------------------------------------------------------ */
+.btn-neonW{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neonW:hover{
+    background: #00bb2d;
+    box-shadow: 0 0 10px #00bb2d, 0 0 40px #00bb2d, 0  0 80px #00bb2d ;
+    transition-delay:1s;
+
+}
+
+.btn-neonW span{
     position: absolute;
     display: block;
 }
@@ -58,10 +210,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     left: -100%;
     width: 100%;
     height: 2px;
-    background:linear-gradient(90deg,transparent,#a945c7);
+    background:linear-gradient(90deg,transparent,#00bb2d);
 }
 
-.btn-neon:hover #span1{
+.btn-neonW:hover #span1{
     left: 100%;
     transition: 1s;
 }
@@ -70,10 +222,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     right: -100%;
     width: 100%;
     height: 2px;
-    background:linear-gradient(270deg,transparent,#a945c7);
+    background:linear-gradient(270deg,transparent,#00bb2d);
 }
 
-.btn-neon:hover #span3{
+.btn-neonW:hover #span3{
     right: 100%;
     transition: 1s;
     transition-delay:0.5s ;
@@ -83,10 +235,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     right: 0;
     width: 2px;
     height: 100%;
-    background:linear-gradient(180deg,transparent,#a945c7);
+    background:linear-gradient(180deg,transparent,#00bb2d);
 }
 
-.btn-neon:hover #span2{
+.btn-neonW:hover #span2{
     top: 100%;
     transition: 1s;
     transition-delay:0.25s ;
@@ -97,11 +249,12 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     left: 0;
     width: 2px;
     height: 100%;
-    background:linear-gradient(180deg,transparent,#a945c7);
+    background:linear-gradient(180deg,transparent,#00bb2d);
 }
 
-.btn-neon:hover #span4{
+.btn-neonW:hover #span4{
     bottom: 100%;
     transition: 1s;
     transition-delay:0.75s ;
+}
 }
