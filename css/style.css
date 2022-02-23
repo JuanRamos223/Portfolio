@@ -328,7 +328,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background:linear-gradient(180deg,transparent,#171515);
 }
 
-.btn-neonl:hover #span4{
+.btn-neonl:hover #span45{
     bottom: 100%;
     transition: 1s;
     transition-delay:0.75s ;
