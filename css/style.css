@@ -334,3 +334,13 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     transition-delay:0.75s ;
 }
 }
+
+#particles-js{
+  background: url(/img/AdobeStock_126016889apaisado.jpg);
+  background-attachment: fixed;
+  background-blend-mode:soft-light ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 70px);
+}
