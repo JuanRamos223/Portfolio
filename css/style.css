@@ -14,12 +14,7 @@ h1{
     text-align: right;
 }
 
-@media (max-width:412px){
-    h1{
-        font-size: 2.5rem;
-    }
-    
-}
+
 
 footer{
    width: 100%;
@@ -29,8 +24,19 @@ background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-2
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-@media (max-width:1912px){
-.btn-neont{
+@media (max-width:1366px){
+    .links__mi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+    .links__mi img{
+        width: 400px;
+    }
+    
+    .btn-neont{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -336,14 +342,32 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     transition: 1s;
     transition-delay:0.75s ;
 }
+
+}
+
+
+@media (max-width:475px){
+    .links__mi{
+        width: 100%;
+        display: flex;
+       
+    }
+    .links__mi a{
+        width: 190px;
+    }
+    .links__mi img{
+        width: 189px;
+        height: 100px;
+    }
+  
 }
 
 #particles-js{
-  background: url(/img/AdobeStock_126016889apaisado.jpg);
-  background-attachment: fixed;
-  background-blend-mode:soft-light ;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: calc(100vh - 70px);
-}
+    background: url(/img/AdobeStock_126016889apaisado.jpg);
+    background-attachment: fixed;
+    background-blend-mode:soft-light ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 70px);
+  }
