@@ -121,6 +121,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background: #3b5998;
     box-shadow: 0 0 10px #3b5998, 0 0 40px #3b5998, 0  0 80px #3b5998 ;
     transition-delay:1s;
+    
 
 }
 
@@ -197,6 +198,8 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background: #00bb2d;
     box-shadow: 0 0 10px #00bb2d, 0 0 40px #00bb2d, 0  0 80px #00bb2d ;
     transition-delay:1s;
+  
+    
 
 }
 
