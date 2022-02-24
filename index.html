@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portafolio</title>
 </head>
 
 <body>
-    <div id="particles-js">
-        <h1 style="text-align: center;">Desarrollo web</h1>
+    <div id="particles-js" >
+        <h1 style="text-align: center;"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" >Desarrollo web</h1>
        
 
     </div>
@@ -37,14 +41,16 @@
         dignissimos tempore expedita neque sequi debitis nisi numquam modi at ea temporibus deserunt, quia incidunt?
     <section>
         <div> 
-        <h3 style="text-align: center;margin-top: 25px;font-size: 44px">Mis Paginas</h3>
+        <h3  data-aos="fade-right" data-aos-duration="1500"  style="text-align: center;margin-top: 25px;font-size: 44px">Mis Paginas</h3>
 
         <div class="links__mi">
             
-                <a href="https://serviciohb.netlify.app/"><img src="/img/sevihb.png" alt=""></a>
+                <a data-aos="fade-right"
+                data-aos-duration="1500" href="https://serviciohb.netlify.app/"><img src="/img/sevihb.png" alt=""></a>
            
             
-                <a href="https://dreamyplace.netlify.app/"><img src="/img/dreamypl.png" alt=""></a>
+                <a data-aos="fade-left"
+                data-aos-duration="1500" href="https://dreamyplace.netlify.app/"><img src="/img/dreamypl.png" alt=""></a>
            
         
         
@@ -57,7 +63,7 @@
     </div>
 </section>
     <footer style="text-align: center;">
-        <h2 class="turnBlack" id="contact-me" data-aos="zoom-in-up">¡Contactáme!</h2>
+        <h2 class="turnBlack" id="contact-me">¡Contactáme!</h2>
         Mis principales fuentes de contacto...</h2>
 
 
@@ -107,6 +113,11 @@
     <script src="/js/particles.min.js"></script>
     <!-- JSPROPIO -->
     <script src="/js/app.js"></script>
+     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
