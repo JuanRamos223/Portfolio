@@ -363,7 +363,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
         margin-top: 25px;
         height: 160px;
     }
-  
+    
 }
 
 #particles-js{
@@ -375,3 +375,5 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     width: 100%;
     height: calc(100vh - 70px);
   }
+
+  
