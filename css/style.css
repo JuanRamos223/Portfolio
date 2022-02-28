@@ -32,7 +32,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     .wave{
         position: absolute;
         width: 100%;
-        bottom: 0;
+        bottom: -0;
         
     }
     .texto__mio{
