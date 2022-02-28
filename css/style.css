@@ -400,7 +400,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 60px);
   }
 
 }
@@ -416,14 +416,14 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 95px);
   }
 
     .wave{
         position: absolute;
         width: 100%;
         bottom: 0;
-        height: 180px;
+        height: 185px;
     }
     .fotomia{
    display: flex;
