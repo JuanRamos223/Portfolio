@@ -29,6 +29,12 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 }
 @media (max-width:1366px){
+    .wave{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 150px;
+    }
     .texto__mio{
         width: 50%;
     }
@@ -390,6 +396,12 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 
 @media (max-width:412px){
+    .wave{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 100px;
+    }
     .fotomia{
    display: flex;
    justify-content: center;
@@ -430,7 +442,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     }
 }
     
-
+/* PARTICLE---------------------------------------------------------------------------------------------- */
 
 #particles-js{
     background: url(/img/AdobeStock_126016889apaisado.jpg);
@@ -439,7 +451,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 95px);
+    height: calc(100vh - 70px);
   }
 /* ESFERAS MOVIMIENTO--------------------------------------------------------------------------------------------------------------- */
   .container{
@@ -553,8 +565,4 @@ background: #24ecff;
       bottom: -80px;
       letter-spacing: 0.15em;
   }
-  .wave{
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-  }
+ 
