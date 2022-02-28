@@ -439,9 +439,9 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 0px);
+    height: calc(100vh - 70px);
   }
-
+/* ESFERAS MOVIMIENTO--------------------------------------------------------------------------------------------------------------- */
   .container{
       position: relative;
       width: 100%;
@@ -552,4 +552,9 @@ background: #24ecff;
       font-family: consolas;
       bottom: -80px;
       letter-spacing: 0.15em;
+  }
+  .wave{
+      position: absolute;
+      width: 100%;
+      bottom: 0;
   }
