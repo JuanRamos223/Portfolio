@@ -33,7 +33,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
         position: absolute;
         width: 100%;
         bottom: 0;
-        height: 150px;
+        
     }
     .texto__mio{
         width: 50%;
@@ -391,33 +391,12 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     transition: 1s;
     transition-delay:0.75s ;
 }
-/* PARTICLE---------------------------------------------------------------------------------------------- */
-
-#particles-js{
-    background: url(/img/AdobeStock_126016889apaisado.jpg);
-    background-attachment: fixed;
-    background-blend-mode:soft-light ;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: calc(100vh - 60px);
-  }
 
 }
 
 
 @media (max-width:412px){
-  /* PARTICLE---------------------------------------------------------------------------------------------- */
-
-#particles-js{
-    background: url(/img/AdobeStock_126016889apaisado.jpg);
-    background-attachment: fixed;
-    background-blend-mode:soft-light ;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: calc(100vh - 95px);
-  }
+  
 
     .wave{
         position: absolute;
@@ -578,4 +557,14 @@ background: #24ecff;
       bottom: -80px;
       letter-spacing: 0.15em;
   }
- 
+ /* PARTICLE---------------------------------------------------------------------------------------------- */
+
+#particles-js{
+    background: url(/img/AdobeStock_126016889apaisado.jpg);
+    background-attachment: fixed;
+    background-blend-mode:soft-light ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 70px);
+  }
