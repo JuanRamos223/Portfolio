@@ -391,16 +391,39 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     transition: 1s;
     transition-delay:0.75s ;
 }
+/* PARTICLE---------------------------------------------------------------------------------------------- */
+
+#particles-js{
+    background: url(/img/AdobeStock_126016889apaisado.jpg);
+    background-attachment: fixed;
+    background-blend-mode:soft-light ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 70px);
+  }
 
 }
 
 
 @media (max-width:412px){
+  /* PARTICLE---------------------------------------------------------------------------------------------- */
+
+#particles-js{
+    background: url(/img/AdobeStock_126016889apaisado.jpg);
+    background-attachment: fixed;
+    background-blend-mode:soft-light ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 90px);
+  }
+
     .wave{
         position: absolute;
         width: 100%;
         bottom: 0;
-        height: 240px;
+        height: 150px;
     }
     .fotomia{
    display: flex;
@@ -442,17 +465,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     }
 }
     
-/* PARTICLE---------------------------------------------------------------------------------------------- */
 
-#particles-js{
-    background: url(/img/AdobeStock_126016889apaisado.jpg);
-    background-attachment: fixed;
-    background-blend-mode:soft-light ;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: calc(100vh - 70px);
-  }
 /* ESFERAS MOVIMIENTO--------------------------------------------------------------------------------------------------------------- */
   .container{
       position: relative;
