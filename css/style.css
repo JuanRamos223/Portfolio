@@ -13,8 +13,9 @@ body{
 }
 h1{
     font-size: 4rem;
-    text-align: right;
+    text-align: center;
     color: #fff;
+    text-shadow: 11px 15p4;
     
 }
 
@@ -31,13 +32,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 }
 @media (max-width:1966px){
-    .wave{
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        height: 120px;
-        
-    }
+    
     .texto__mio{
         width: 50%;
     }
@@ -401,13 +396,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 @media (max-width:412px){
   
 
-    .wave{
-        
-        width: 100%;
-        bottom: 0;
-        height: 230px;
-        clear: both;
-    }
+    
     .fotomia{
    display: flex;
    justify-content: center;
