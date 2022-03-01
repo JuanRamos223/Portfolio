@@ -16,6 +16,7 @@ h1{
     text-align: center;
     color: #fff;
     text-shadow: 11px 15px 10px  #000;
+    position: absolute;
     
 }
 
@@ -32,7 +33,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 }
 @media (max-width:1966px){
-    
+    .titulo__dw{
+        display: flex;
+        justify-content: center;
+    }
     .texto__mio{
         width: 50%;
     }
@@ -560,5 +564,5 @@ background: #24ecff;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: calc(100vh - 90px);
+    height:100vh;
   }
