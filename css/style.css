@@ -45,7 +45,12 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
       }
 
 @media (max-width:1966px){
-
+    .wave{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    
 
     .titulo__dw{
         display: flex;
@@ -410,7 +415,11 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 }
 @media (max-width:768px){
-    
+    .wave{
+        position: absolute;
+        width: 100%;
+        bottom: 250px;
+    }
     .fotomia{
         display: flex;
         justify-content: center;
@@ -650,8 +659,3 @@ background: #24ecff;
       letter-spacing: 0.15em;
       
   }
-.wave{
-    position: absolute;
-    width: 100%;
-    
-}
