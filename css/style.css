@@ -32,7 +32,21 @@ background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-2
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+     /* PARTICLE---------------------------------------------------------------------------------------------- */
+
+     #particles-js{
+        background: url(/img/AdobeStock_126016889apaisado.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+      }
+
 @media (max-width:1966px){
+
+
     .titulo__dw{
         display: flex;
         justify-content: center;
@@ -396,6 +410,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 }
 @media (max-width:768px){
+    
     .fotomia{
         display: flex;
         justify-content: center;
@@ -435,7 +450,9 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
              height: 160px;
          }
 }
+
 @media (max-width:550px){
+    
     .fotomia{
         display: flex;
         justify-content: center;
@@ -477,8 +494,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 
 @media (max-width:350px){
-  
-
+    
     
     .fotomia{
    display: flex;
@@ -632,16 +648,4 @@ background: #24ecff;
       font-family: consolas;
       bottom: -80px;
       letter-spacing: 0.15em;
-  }
- /* PARTICLE---------------------------------------------------------------------------------------------- */
-
-#particles-js{
-    background: url(/img/AdobeStock_126016889apaisado.jpg);
-    background-attachment: fixed;
-    
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height:100vh;
   }
