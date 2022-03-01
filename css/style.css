@@ -461,7 +461,11 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 
 @media (max-width:550px){
-    
+    .wave{
+        position: absolute;
+        width: 100%;
+        bottom: 100px;
+    }
     .fotomia{
         display: flex;
         justify-content: center;
@@ -504,7 +508,11 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 @media (max-width:350px){
     
-    
+    .wave{
+        position: absolute;
+        width: 100%;
+        bottom: 100px;
+    }
     .fotomia{
    display: flex;
    justify-content: center;
